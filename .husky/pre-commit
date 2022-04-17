@@ -1,0 +1,11 @@
+###
+ # @Author       : frank
+ # @Date         : 2022-04-17 22:51:15
+ # @LastEditTime : 2022-04-17 22:54:11
+ # @LastEditors  : frank
+ # @Description  : In User Settings Edit
+### 
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+npx --no -- lint-staged
